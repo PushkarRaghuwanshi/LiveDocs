@@ -4,10 +4,10 @@ import React, { Children } from "react";
 
 const Header = ({children} : HeaderProps) => {
   return (
-    <div className="">
+    <div className=" flex gap-5 p-5">
       <Link href="/" className="md:flex-1">
         <Image
-          src="/assests/icons/logo.png"
+          src="/assets/icons/logo.svg"
           alt="Logo with name"
           width={120}
           height={32}
